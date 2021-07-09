@@ -1,0 +1,27 @@
+{
+  "name": "bot-interpreter",
+  "version": "0.0.1",
+  "description": "translate human conversation/text to machine actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "nodemon --watch './**/*.ts' --exec 'ts-node' index.ts"
+  },
+  "keywords": [
+    "bot",
+    "assistant",
+    "state",
+    "machines"
+  ],
+  "author": "Diego Torres",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^8.1.1",
+    "xstate": "^4.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10",
+    "ts-node": "^10.0.0"
+  }
+}
